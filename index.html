@@ -9,9 +9,9 @@
 
     <body>
         <!-- Box Model -->
-        <h1 class="box-one">Hello World!!!!</h1> <!-- Box Model -->
-        <h2 class="box-two">Hai Hai Hai Hai Hai Hai Hai Hai Hai</h2>
-        
+        <h1 class="box-1">Hello World!!!!</h1> 
+        <h2 class="box-2">Hai Hai Hai Hai Hai Hai Hai Hai Hai</h2>
+
         <h3>Hai</h3>
         <h4>Hai</h4>
         <h5>Hai</h5>
@@ -23,35 +23,66 @@
   <!-- Working with Text -->
         <p><strong>Lorem ipsum</strong> (/ˌlɔː.rəm ˈɪp.səm/ LOR-əm IP-səm) is a dummy or placeholder
              text commonly used in graphic design, publishing, and web development. 
-             Its purpose is to <em>permit</em> a page layout to be designed, independently of the copy that will subsequently populate it, 
-             or to demonstrate various fonts of a typeface without meaningful text that could be distracting.</p>
+             Its purpose is to <em>permit</em> a page layout to be designed,</p>
   
   <!-- Lists -->
+   <!-- Block and inline boxes -->
         <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
+            <li class="box-3">Item 1</li>
+            <li class="box-3">Item 2</li>
+            <li class="box-3">Item 3</li>
         </ul>
 
         <ol>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
+            <li class="box-4">Item 1</li>
+            <li class="box-4">Item 2</li>
+            <li class="box-8">Item 3</li>
         </ol>
+        
+        <p>Independently of the copy that will subsequently populate it, 
+             or <span class="box-5">to demonstrate various</span> fonts of a typeface without <span class="box-8">meaningful text</span>that could be distracting.</p>
+        
+        <div class="container-flex">
+            <div class="item">A</div>
+            <div class="item">B</div>
+            <div class="item">C</div>
+        </div>
+
+        <p>Teks setelah container</p>
+
+        <p>
+            Status:
+            <span class="badge">
+                <span class="dot"></span>
+                Online
+            </span>
+             sekarang
+        </p>
+
+        <button class="btn">
+            <img src="icon.svg" alt="">
+            Submit
+        </button>
+
 
   <!-- Links and Images -->
-        <a href="https://www.theodinproject.com/about"
+        <p><a href="https://www.theodinproject.com/about"
             target="_blank" rel="noopener noreferrer"/>
             About The Project</a>
+        </p>
 
-        <p></p>
-        <a href="./odin-links-and-images/pages/about.html" target="_blank" rel="noopener noreferrer">
+        <p> <a href="./odin-links-and-images/pages/about.html" 
+            target="_blank" rel="noopener noreferrer">
             About</a>
+        </p>
+       
         
-        <p></p>
-        <img src="https://www.theodinproject.com/mstile-310x310.png" 
-        alt="The Odin Project Logo"
-        height="310" width="310" />
+        <p>        
+            <img src="https://www.theodinproject.com/mstile-310x310.png" 
+            alt="The Odin Project Logo"
+            height="310" width="310" />
+        </p>
+
         
         <p></p>
         <a href="./odin-links-and-images/pages/about.html"

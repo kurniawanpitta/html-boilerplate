@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 
-.box-one {
+p {
+    margin: 1em;
+    line-height: 1.5;
+}
+
+.box-1 {
     background-color: red;
     font-size: 20px;
     text-align: center;
@@ -19,7 +24,7 @@
 
 }
 
-.box-two {
+.box-2 {
     background-color: blue;
     font-size: 20px;
     text-align: center;
@@ -32,3 +37,90 @@
     border: 20px solid blanchedalmond;
     margin: 40px;
 }
+
+ul {
+    border: 2px solid blue;
+    padding: 0.2em;
+    display: flex;  /*-- For sequence --> */
+    list-style: none;
+}
+
+ol {
+    border: 2px solid orange;
+    padding: 0.2em;
+}
+
+.box-3 {
+    border: 2px solid red;
+    margin: 0.5em;
+    padding: 0.2em;
+}
+
+.box-4 {
+    border: 2px solid green;
+    margin: 1em;
+    padding: 0.2em;
+}
+
+.box-5 {
+    display: block;
+    width: fit-content;
+    border: 2px solid purple;
+    margin: 1em;
+    padding: 0.2em;
+}
+
+.box-6 {
+    display: block;
+    width: fit-content;
+    border: 2px solid rgb(128, 64, 0);
+    margin: 1em;
+    padding: 0.2em;
+}
+
+.box-7 {
+    display: inline;
+    border: 1px solid salmon;
+}
+
+.box-8 {
+    display: inline-flex;
+    border: 2px solid salmon;
+}
+
+.container-flex {
+  display: flex;
+  gap: 10px;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.item {
+  background-color: steelblue;
+  color: white;
+  padding: 10px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: green;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: lime;
+  border-radius: 50%;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
